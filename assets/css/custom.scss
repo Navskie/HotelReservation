@@ -59,10 +59,12 @@ ul {
 }
 
 .navbar-body {
+    z-index: 999;
     display: grid;
     padding: 0 10%;
     grid-template-columns: 300px 1fr;
     box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, .12);
+    // border-bottom: .5px solid #333;
     
     .logo {
         display: flex;
@@ -155,5 +157,17 @@ ul {
             width: 50%;
             border-radius: 25px;
         }
+    }
+}
+
+.main-banner {
+    // padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 100%;
+        z-index: -1;
     }
 }

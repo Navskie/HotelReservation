@@ -47,6 +47,7 @@ ul {
 }
 
 .navbar-body {
+  z-index: 999;
   display: grid;
   padding: 0 10%;
   grid-template-columns: 300px 1fr;
@@ -122,4 +123,14 @@ ul {
 .banner .banner-image img {
   width: 50%;
   border-radius: 25px;
+}
+
+.main-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-banner img {
+  width: 100%;
+  z-index: -1;
 }/*# sourceMappingURL=custom.css.map */
