@@ -4,6 +4,7 @@
   --oranger-hover: #c44820;
   --dark-grey: #333333;
   --light-grey: rgb(242, 242, 242);
+  --white: #fff;
 }
 
 * {
@@ -23,27 +24,31 @@ ul {
 }
 
 .terms-rates {
-  background-color: var(--light-grey);
+  background-color: var(--orange);
   display: flex;
-  padding: 15px 0;
+  padding: 10px 0;
   justify-content: center;
   align-items: center;
 }
 .terms-rates .button .terms-btn {
-  padding: 10px 16px;
+  padding: 6px 12px;
   border-radius: 5px;
   margin-left: 15px;
   border: none;
   cursor: pointer;
-  font-size: 17px;
-  background-color: var(--orange);
-  color: #fff;
+  font-size: 13px;
+  background-color: var(--oranger-hover);
+  border: 0.5px solid var(--white);
+  font-weight: 600;
+  color: var(--white);
 }
 .terms-rates .button .terms-btn:hover {
   background-color: var(--oranger-hover);
+  color: var(--white);
 }
 .terms-rates .text .terms {
-  font-size: 17px;
+  color: var(--white);
+  font-size: 14px;
 }
 
 .navbar-body {
@@ -113,7 +118,7 @@ ul {
 .banner {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 50px 10%;
+  padding: 90px 10%;
 }
 .banner .banner-image {
   display: flex;
@@ -121,16 +126,57 @@ ul {
   align-items: center;
 }
 .banner .banner-image img {
-  width: 50%;
-  border-radius: 25px;
+  width: 80%;
+  border-radius: 35px;
+  box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.12);
+}
+.banner .banner-content div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner .banner-content div h1 {
+  font-family: "Konkhmer Sleokchher", cursive;
+  font-size: 35px;
+  color: var(--orange);
+}
+.banner .banner-content div p {
+  line-height: 25px;
+  font-weight: 350;
+  padding: 10px 0;
+}
+.banner .banner-content div ul li {
+  line-height: 25px;
+  font-weight: 400;
+  padding: 10px 0;
 }
 
 .main-banner {
+  height: 60vh;
+  background: url("/assets/image/download.jpg");
   display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
 }
 .main-banner img {
-  width: 100%;
-  z-index: -1;
+  width: 300px;
+}
+
+.main-footer {
+  display: flex;
+  background-color: var(--dark-grey);
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+.main-footer span {
+  color: var(--white);
+  font-size: 18px;
+}
+
+.banner2 {
+  background-color: var(--light-grey);
 }/*# sourceMappingURL=custom.css.map */
