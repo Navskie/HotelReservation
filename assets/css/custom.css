@@ -179,4 +179,81 @@ ul {
 
 .banner2 {
   background-color: var(--light-grey);
+}
+
+.column3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 20%;
+  grid-gap: 80px;
+  margin-top: 39px;
+}
+.column3 .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 45px;
+  border-radius: 25px;
+  box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.12);
+}
+.column3 .column .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column3 .column .img img {
+  width: 100%;
+  padding: 0 5px;
+  padding-bottom: 35px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.column3 .column .title h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+.column3 .column .price {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.column3 .column .price b {
+  font-size: 25px;
+  color: var(--dark-grey);
+}
+.column3 .column .button {
+  margin-bottom: 15px;
+}
+.column3 .column .button a {
+  background-color: var(--orange);
+  padding: 10px 16px;
+  color: #fff;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.column3 .column .button a:hover {
+  background: var(--oranger-hover);
+}
+
+.col-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+.col-head .main {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.col-head .italic {
+  font-size: 16px;
 }/*# sourceMappingURL=custom.css.map */
