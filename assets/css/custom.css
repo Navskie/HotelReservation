@@ -380,7 +380,7 @@ li {
   color: var(--white);
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1918px) {
   .terms-rates {
     padding: 15px 0;
   }
@@ -395,54 +395,5 @@ li {
   }
   .banner .banner-image img {
     width: 65%;
-  }
-}
-@media (min-width: 1024px) {
-  .navbar-body .navbar-list a {
-    font-size: 15px;
-  }
-  .main-banner img {
-    width: 240px;
-  }
-  .main-footer {
-    padding: 10px 0;
-  }
-  .main-footer span {
-    font-size: 16px;
-  }
-  .banner {
-    padding: 50px 10%;
-  }
-  .banner .banner-content div h1 {
-    font-size: 22px;
-  }
-  .banner .banner-content div p {
-    font-size: 14px;
-    line-height: 15px;
-  }
-  .banner .banner-content div ul li {
-    font-size: 14px;
-    line-height: 15px;
-  }
-  .column3 {
-    padding: 0 10%;
-  }
-  .testimonial {
-    padding: 50px 10%;
-  }
-  .testimonial .name {
-    text-align: center;
-  }
-  .testimonial .name h5 {
-    font-size: 12px;
-  }
-  .testimonial .comment div {
-    font-size: 12px;
-  }
-  .testimonial .when .date {
-    font-size: 11px;
-  }
-  .footer {
-    padding: 3% 10%;
   }
 }/*# sourceMappingURL=custom.css.map */
