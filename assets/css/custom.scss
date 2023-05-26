@@ -8,6 +8,10 @@
     --white : #fff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -495,82 +499,11 @@ li {
     }
 }
 
-// @media (min-width: 1024px) {
-//     .navbar-body {
-//         .navbar-list {
-//             a {
-//                 font-size: 15px;
-//             }
-//         }
-//     }
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
 
-//     .main-banner {
-//         img {
-//             width: 240px;
-//         }
-//     }
-
-//     .main-footer {
-//         padding: 10px 0;
-//             span {
-//                 font-size: 16px;
-//             }
-//     }
-
-//     .banner {
-//         padding: 50px 10%;
-
-//         .banner-content {
-//             div {
-//                 h1 {
-//                     font-size: 22px;
-//                 }
-
-//                 p {
-//                     font-size: 14px;
-//                     line-height: 15px;
-//                 }
-
-//                 ul {
-//                     li {
-//                         font-size: 14px;
-//                         line-height: 15px;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-
-//     .column3 {
-//         padding: 0 10%;
-//     }
-
-//     .testimonial {
-//         padding: 50px 10%;
-
-//         .name {
-//             text-align: center;
-//             h5 {
-//                 font-size: 12px;
-//             }
-//         }
-
-//         .comment {
-
-//             div {
-//                 font-size: 12px;
-//             }
-
-//         }
-
-//         .when {
-//             .date {
-//                 font-size: 11px;
-//             }
-//         }
-//     }
-
-//     .footer {
-//         padding: 3% 10%;
-//     }
-// }
+.fade-in.appear {
+    opacity: 1;
+}
