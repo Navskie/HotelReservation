@@ -488,7 +488,7 @@ li {
     }
 }
 
-@media screen and (min-width: 1980px) {
+@media (min-width: 1980px) {
     .terms-rates {
         padding: 15px 0;
     }
@@ -524,7 +524,7 @@ li {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .fix {
         position: fixed;
         width: 100%;
@@ -625,6 +625,82 @@ li {
         }
     }
 
+}
+
+@media (max-width: 500px) {
+
+    .fix {
+        .terms-rates {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+
+            .text {
+                margin-bottom: 12px;
+            }
+        }
+
+        .navbar-body {
+            padding: 0 5%;
+        }
+    }  
+    
+    .main-banner {
+        display: flex;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .main-footer {
+        display: flex;
+
+        span {
+            font-size: 14px;
+        }
+    }
+
+    .testimonial {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column3 {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10%;
+    }
+    
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .logo {
+            align-items: center;
+            img {
+                width: 200px;
+            }
+        }
+
+        .navigation {
+
+            a {
+                text-align: left;
+            }
+        }
+
+        .information {
+            padding: 0 50px;
+        }
+    }
+
+    .responsive {
+        width: 50%;
+    }
 }
 
 .fade-in {
