@@ -31,6 +31,10 @@ li {
   list-style: none;
 }
 
+#check {
+  display: none;
+}
+
 .terms-rates {
   background-color: var(--orange);
   display: flex;
@@ -63,6 +67,7 @@ li {
   z-index: 999;
   display: grid;
   padding: 0 10%;
+  background: var(--white);
   grid-template-columns: 300px 1fr;
   box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.12);
 }
@@ -71,6 +76,9 @@ li {
   padding: 20px 0;
   justify-content: start;
   align-items: center;
+}
+.navbar-body .toggle {
+  display: none;
 }
 .navbar-body .navbar-list {
   display: flex;
@@ -121,6 +129,10 @@ li {
   padding-right: 28px;
   background-color: var(--light-grey);
   box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.12);
+}
+
+.responsive {
+  display: none;
 }
 
 .banner {
@@ -403,8 +415,53 @@ li {
   }
 }
 @media (max-width: 850px) {
+  .fix {
+    position: fixed;
+    width: 100%;
+  }
   .navbar-body .navbar-list {
     display: none;
+  }
+  .navbar-body .toggle {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .navbar-body .toggle i {
+    font-size: 25px;
+    color: var(--oranger-hover);
+  }
+  .main-banner {
+    height: 90vh;
+    padding-top: 140px;
+  }
+  .responsive {
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    background-color: var(--dark-grey);
+    flex-direction: column;
+    width: 30%;
+    left: -50%;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  .responsive .logo img {
+    width: 40%;
+  }
+  .responsive ul {
+    margin-top: 50px;
+  }
+  .responsive ul li {
+    padding: 15px 0;
+  }
+  .responsive ul li a {
+    font-size: 20px;
+    color: var(--white);
+  }
+  #check:checked ~ .responsive {
+    left: 0;
   }
   .testimonial {
     grid-template-columns: repeat(2, 1fr);

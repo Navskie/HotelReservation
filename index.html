@@ -14,38 +14,59 @@
     <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 <body>
-    <!-- Short Terms Rates -->
-    <div class="terms-rates">
-        <div class="text">
-            <p class="terms">We offer Short Term Stays for as low as <b>800.00</b></p>
+    <div class="fix">
+        <!-- Short Terms Rates -->
+        <div class="terms-rates">
+            <div class="text">
+                <p class="terms">We offer Short Term Stays for as low as <b>800.00</b></p>
+            </div>
+            <div class="button">
+                <button class="terms-btn">Short Terms Rates</button>
+            </div>
         </div>
-        <div class="button">
-            <button class="terms-btn">Short Terms Rates</button>
+
+        <!-- Navbar -->
+        <div class="navbar-body">
+            <div class="logo">
+                <img src="assets/image/logo.jpg" alt="Logo" width="50">
+            </div>
+
+            <ul class="navbar-list">
+                <li><a href="#">Home</a></li>
+                <li class="dropmenu"><a href="#">Room Rates</a>
+                    <ul class="dropdown">
+                        <li><a href="">Couple Rooms</a></li>
+                        <li><a href="">Triple Rooms</a></li>
+                        <li><a href="">Family Rooms</a></li>
+                        <li><a href="">Short Term Stays</a></li>
+                    </ul>
+                </li>
+                <li class="dropmenu2"><a href="#">About</a>
+                    <ul class="dropdown2">
+                        <li><a href="">House Rules</a></li>
+                        <li><a href="">Cancellation Refund</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <span class="toggle">
+                
+                <label for="check">
+                    <i class="fa-solid fa-sliders"></i>
+                </label>
+            </span>
         </div>
     </div>
 
-    <!-- Navbar -->
-    <div class="navbar-body">
+    <input type="checkbox" id="check">
+    <div class="responsive">
         <div class="logo">
-            <img src="assets/image/logo.jpg" alt="Logo" width="50">
+            <img src="/assets/image/white logo.png" alt="White Logo">
         </div>
-
-        <ul class="navbar-list">
+        <ul class="mobile-menu">
             <li><a href="#">Home</a></li>
-            <li class="dropmenu"><a href="#">Room Rates & Features</a>
-                <ul class="dropdown">
-                    <li><a href="">Couple Rooms</a></li>
-                    <li><a href="">Triple Rooms</a></li>
-                    <li><a href="">Family Rooms</a></li>
-                    <li><a href="">Short Term Stays</a></li>
-                </ul>
-            </li>
-            <li class="dropmenu2"><a href="#">About</a>
-                <ul class="dropdown2">
-                    <li><a href="">House Rules</a></li>
-                    <li><a href="">Cancellation Refund & ...</a></li>
-                </ul>
-            </li>
+            <li><a href="#">Room Rates</a></li>
+            <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </div>
