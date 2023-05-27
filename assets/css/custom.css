@@ -429,15 +429,15 @@ li {
     position: fixed;
     width: 100%;
   }
-  .navbar-body .navbar-list {
+  .fix .navbar-body .navbar-list {
     display: none;
   }
-  .navbar-body .toggle {
+  .fix .navbar-body .toggle {
     display: flex;
     justify-content: end;
     align-items: center;
   }
-  .navbar-body .toggle i {
+  .fix .navbar-body .toggle i {
     font-size: 25px;
     color: var(--oranger-hover);
   }
@@ -494,6 +494,7 @@ li {
   .footer {
     padding: 5% 5%;
     grid-template-columns: repeat(3, 1fr);
+    background-color: red;
     margin-bottom: 0;
   }
   .footer .navigation {

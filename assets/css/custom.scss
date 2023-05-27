@@ -528,25 +528,27 @@ li {
     .fix {
         position: fixed;
         width: 100%;
-    }
 
-    .navbar-body {
+        .navbar-body {
 
-        .navbar-list {
-            display: none;
-        }
-
-        .toggle {
-            display: flex;
-            justify-content: end;
-            align-items: center;
-
-            i {
-                font-size: 25px;
-                color: var(--oranger-hover);
+            .navbar-list {
+                display: none;
+            }
+    
+            .toggle {
+                display: flex;
+                justify-content: end;
+                align-items: center;
+    
+                i {
+                    font-size: 25px;
+                    color: var(--oranger-hover);
+                }
             }
         }
     }
+
+    
 
     .main-banner {
         height: 90vh;
@@ -614,6 +616,7 @@ li {
     .footer {
         padding: 5% 5%;
         grid-template-columns: repeat(3, 1fr);
+        background-color: red;
         margin-bottom: 0;
         .navigation {
             padding: 0;
