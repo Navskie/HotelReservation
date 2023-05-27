@@ -35,6 +35,10 @@ li {
   display: none;
 }
 
+.responsive {
+  display: none;
+}
+
 .terms-rates {
   background-color: var(--orange);
   display: flex;
@@ -420,7 +424,7 @@ li {
     display: none;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 870px) {
   .fix {
     position: fixed;
     width: 100%;
