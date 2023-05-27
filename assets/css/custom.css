@@ -413,6 +413,12 @@ li {
   .banner .banner-image img {
     width: 65%;
   }
+  #check {
+    display: none;
+  }
+  .responsive {
+    display: none;
+  }
 }
 @media (max-width: 850px) {
   .fix {
