@@ -494,7 +494,6 @@ li {
   .footer {
     padding: 5% 5%;
     grid-template-columns: repeat(3, 1fr);
-    background-color: red;
     margin-bottom: 0;
   }
   .footer .navigation {
